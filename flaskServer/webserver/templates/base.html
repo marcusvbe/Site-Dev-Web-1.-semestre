@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %} - Unes </title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body {% block bg %} {% endblock %} >
+    <!-- Cabeçalho e menu -->
+    <div {% block tag %} {% endblock %} >
+
+        <img src="/static/img/logo.png" alt="logo.png" id="logo">
+        <div id="links">
+            <a href="/" class="menu" id="menu1">Home</a>  |
+            <a href="quemsomos.html" target="_blank" class="menu">Quem somos</a>  |
+            <a href="contato.html" target="_blank" class="menu">Contato</a>  
+        </div>
+    </div>
+    <!-- Corpo de cada página -->
+
+{% block content %}
+
+{% endblock %}
+
+    <!-- Rodapé -->
+    <div>
+        <footer>Todos os direitos reservados</footer>
+        <br><br>
+    </div>
+
+</body>
+</html>

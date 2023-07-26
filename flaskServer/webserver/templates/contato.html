@@ -1,0 +1,34 @@
+{% extends "base.html"  %}
+
+{% block title %}Contato {% endblock %}
+
+{% block bg %}
+class="contato"
+{% endblock %}
+
+{% block tag %}
+id="headercontato"
+{% endblock %}
+
+{% block content %}
+    <div id="textocontato">
+        <br>
+        <h2>Entre em contato</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, necessitatibus. Adipisci, ratione ipsum.</p>
+        <hr>
+
+    </div>
+    <div id="formcontato">
+    <!-- Formulário -->
+        <form method="post" action="/contato.html" >
+            Seu e-mail:<br>
+            <input type="email" name="email">
+            Assunto:<br>
+            <input type="text" name="assunto"><br>
+            Descrição:<br>
+            <input type="text" name="descricao"><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+{% endblock %} 
