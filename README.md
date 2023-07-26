@@ -19,7 +19,8 @@ Desenvolvido na disciplina de Desenvolvimento Web, ministrada pelo professor Jea
 
 <h3>Clonar este repositório</h3>
 
-``` git clone https://github.com/marcusvbe/Site-Dev-Web-1.-semestre
+``` python
+	git clone https://github.com/marcusvbe/Site-Dev-Web-1.-semestre
 ```
 <br>
 
@@ -31,7 +32,7 @@ Desenvolvido na disciplina de Desenvolvimento Web, ministrada pelo professor Jea
 ```
 
 <h3>No navegador, acesse o endereço:</h3>
-localhost:5000
+http://localhost:5000/
 
 <h4>Observação:</h4>
 Os dados inseridos na página http://localhost:5000/contato.html podem ser consultados na página http://localhost:5000/users.
